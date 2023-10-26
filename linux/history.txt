@@ -1,0 +1,135 @@
+HISTORICO DO TERMINAL AULA DE HOJE 
+1  sudo
+    2  apt
+    3  sudo apt
+    4  sudo apt up
+    5  sudo apt update 
+    6  sudo apt upgrade 
+    7  sudo apt fullupgrade
+    8  sudo apt full-upgrade 
+    9  sudo apt dist-upgrade 
+   10  sudo apt autoremove
+   11  sudo apt autoclean 
+   12  sudo apt clean 
+   13  sudo apt update 
+   14  history
+   15  sudo apt up
+   16  sudo apt update 
+   17  sudo apt install
+   18  sudo apt install hollywood 
+   19  holl
+   20  hollywood 
+   21  sudo apt update 
+   22  sudo apt upgrade 
+   23  sudo apt updater
+   24  sudo apt update
+   25  sudo apt install git vim python2 python3
+   26  sudo apt install guvcview
+   27  sudo apt install wps office
+   28  sudo apt install WPS
+   29  sudo apt install wpsoffice
+   30  suado apt
+   31  sudo apt update 
+   32  id
+   33  sudo -i
+   34  su
+   35  ls
+   36  ls -lh
+   37  ls -a
+   38  ls-lha
+   39  ls -lha
+   40  cd 
+   41  cd\
+   42  cd/
+   43  cd /
+   44  ls
+   45  ls -lh
+   46  pwd
+   47  cd -
+   48  pwd
+   49  cd - 
+   50  cd /
+   51  cd ~
+   52  pwd
+   53  cd /
+   54  pwd
+   55  cd ~
+   56  ls
+   57  cd Documentos/
+   58  cd -
+   59  cd /
+   60  pwd
+   61  cd home/
+   62  cd-
+   63  ls
+   64  ls -lh
+   65  cd /
+   66  cd ~/Documentos/
+   67  pwd
+   68  cd ..
+   69  pwd
+   70  cd ..
+   71  cd..
+   72  cd ~/.mozilla/
+   73  cd -
+   74  history 
+   75  cd Documentos/
+   76  cd~
+   77  cd ~
+   78  cd Documentos/
+   79  cd -
+   80  cd-
+   81  cd -
+   82  mkdir senac
+   83  ls
+   84  ls -lh
+   85  mkdir senac
+   86  mkdir SENAC
+   87  ls
+   88  ls -lh
+   89  mkdir -v tatuape
+   90  ls - lh 
+   91  ls
+   92  cd senac/
+   93  mkdir -v Alison Andrew Arthur Bruno Caio
+   94  ls -lh
+   95  cd Alison/
+   96  cd -
+   97  mkdir SENACTatuape
+   98  ls -lh
+   99  mkdir SENAC tatuapé 
+  100  ls -lh
+  101  mkadir -v SENAC Tatuapé
+  102  mkdir -v SENAC Tatuapé 
+  103  ls -lh
+  104  cd tatuapé/
+  105  mkdir -v 'SENAC Tatuapé'
+  106  ls
+  107  cd 'SENAC Tatuapé'/
+  108  cd /
+  109  cd ~
+  110  cd Documentos/
+  111  cd senac/
+  112  mkdir -v tat info tst est amd
+  113  cd tat
+  114  cd-
+  115  pwd
+  116  cd ..
+  117  ls -lh
+  118  mkdir -v tat r info tst est adm 
+  119  mkdir -help
+  120  mkdir --help
+  121  mkdir -pv tat/info tat/adm tat/ est tat/tst
+  122  cd tat
+  123  cd adm/
+  124  cd -
+  125  ls -lh
+  126  cd ..
+  127  rm Alison/
+  128  rm -fv Alison/
+  129  rm -Rfv Alison/
+  130  ls -lh
+  131  rm -Rfv Andrew/ Arthur/ Caio/ Bruno/ SENAC/ SENACTatuape/ tat/ tatuapé/ Tatuapé 
+  132  ls-lh
+  133  ls
+  134  history

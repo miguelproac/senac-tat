@@ -1,0 +1,34 @@
+terminal: bash/shell
+shell script: linguage de programaçao 
+~ reposotorio pessoal
+$ usuario comum 
+# super usuario
+sudo -i trocar de usuario para super usuario
+
+=====================================================================
+Comandos de manipulaçao de diretorios 
+ls: localizar diretorios
+ -lh listar em coluna e modo humano
+ - a arquivos ocultos 
+azul: diretorio 
+branco: arquivo texto
+.: oculto 
+cd: mudar de diretorios 
+cd / ir pra raiz 
+azul calcinha: link simbolico 
+marca texo verde: perigo
+pwd: em qaul diretorio vc esta 
+cd - voltar um diretoio antes e voltar dnv 
+~ volta ŕo diretorio pssoal 
+cd ..  descer um nivel
+mkdir criar diretorios
+mkdir -v verboso detalhar oq foi feito
+
+ajuda d comandoa
+-- help
+man
+
+rm remover arquivos ou diretoio 
+-f forÇAR
+-v VERBOSO
+-R recursivo

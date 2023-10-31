@@ -133,3 +133,70 @@ HISTORICO DO TERMINAL AULA DE HOJE
   132  ls-lh
   133  ls
   134  history
+COMANDOS AULA 30/10
+ ls-lh
+  133  ls
+  134  history
+  135  ls -lh
+  136  cd Documentos/
+  137  ls -lh
+  138  cd senac
+  139  ls -lh
+  140  cd ..
+  141  echo
+  142  echo SENAC Tatuapé
+  143  echo "SENAC Tatuapé - Técnico em informatica"
+  144  echo "SENAC Tatuapé - Técnico em informatica"> senac.txt
+  145  ls
+  146  ls -lh
+  147  cat senac.txt 
+  148  echo "Conhecendo o GNU/Linux Bash Shell PDG
+  149  echo "Conhecendo o GNU/Linux Bash Shell PDG"
+  150  echo "Conhecendo o GNU/Linux Bash Shell PDG" >> senac.txt
+  151  ls -lh
+  152  cat senac.txt 
+  153  touch tatuape.txt
+  154  ls -lh
+  155  cat /etc/services 
+  156  cat -n /etc/services 
+  157  ls -lh
+  158  cat -n senac.txt 
+  159  cp -v senac.txt SENAC/
+  160  ls -lh
+  161  ls -lh SENAC/
+  162  cp -v senac.txt SENAC/tatuape.txt
+  163  ls -lh
+  164  ls -lh SENAC/
+  165  echo "aprendendo a utilizar os comandos do bash"> tatuape.txt 
+  166  ls -lH
+  167  cat -n tatuape.txt
+  168  mv -v senac.txt senac/
+  169  ls -lh
+  170  ls -lh senac/
+  171  cat -n senac.txt
+  172  cat -n senac/senac.txt 
+  173  mv -v tatuape.txt senac/tat.txt
+  174  ls -lh senac/
+  175  history
+  176  ls -lh senac/
+  177  cat -n /etc/services 
+  178  tac /etc/services 
+  179  cat -n /etc/services | tac
+  180  cat -n /etc/services | tac | less 
+  181  head /etc/services 
+  182  head -n20 /etc/services 
+  183  tail -n30 /etc/services 
+  184  history
+  185  cat -n /etc/services | tac | less 
+  186  head help
+  187  help head
+  188  man -k head
+  189  cat -n /etc/services | tac | less 
+  190  cat rm -n1 99 -n100  /etc/services | tac | less 
+  191  cat help
+  192  help cat
+  193  info cat
+  194  exit
+  195  history
+
+

@@ -1,0 +1,12 @@
+echo= imprime na tela 
+cat= imprime o conteudo do arquivo 
+tac= lista o conteudo do arquivo invertido 
+touch= muda data e hora do arquivo se ao exise elel cria
+cp= copiar arquio ou diretoro 
+mv= mover arquivo ou diretorio ou renomear 
+> = redirecionador de saida 
+>> = redirecionador de saida adicionando 
+|= redirecionar a saida de um cmando com a entrada de outro coamndo 
+less= leitor de arquivo 
+head= lista o inicio do arquivo
+tail= lista o final do arquivo 

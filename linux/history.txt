@@ -196,6 +196,7 @@ COMANDOS AULA 30/10
   191  cat help
   192  help cat
   193  info cat
+cat n- etc /service | head - n200 tail -n101 | less
   194  exit
   195  history
 

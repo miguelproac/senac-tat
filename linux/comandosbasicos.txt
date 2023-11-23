@@ -1,0 +1,30 @@
+mkdir " comandos basicos linux " 
+mkdir: criei repositorio-- ": preservar o nome ( sem " teria criado 3 repositorios diferentes ) 
+rmdir: remover diretórios VAZIOS  ex: rmkdir comandos
+ls -lh: listar o que tem dentro do diretório 
+cd: ir para um diretorio ex: cd Documentos/
+pwd: mostra aonde voce esta 
+man: manual de um comando ex: man mkdir 
+ls -lha: diretorios e arquivos ocultos
+cd .. descer um nivel
+cd / : raiz
+cd - volta ao anterior 
+cd ~ ir para home
+-v mostra açao do comando ex: mkdir -v comando  (vai mostar na tela que foi criado o repositório comand0)
+mkdir -p comando/basicos: diretorio basicos dentro de diretorio comando 
+cd ../../ descer dois diretorios
+echo: imprime na saida padrao do sistema operacional (SO) no caso o monitor--- com redirecionadores de saida ele pode criar arquivos----ex: echo bla bla bla bla > falas.txt (criei arquivo de texto com conteudo dentro) >> adiciona mais texto ao arquivo 
+touch: muda data e hora do arquivo, caso nao exixta ele cria o arquivo ex: touch teste02.txt
+cat listar conteudo
+cat -n listar com numro de linhas ex: cat -n teste02
+cp:copiar arquivos ex: cp texte01 teste03 (criou um arquivo teste03 sendo uma copia do teste01) 
+mv: mover ou renomear ex: mv teste01 comando/  (movi o arquivo teste01 para o diretório comando) ex2: mv -v teste01 teste 02 teste03 comando/  ( mv mover teste1 2 e 3  -v ver açao feita para diretorio comando )
+ * selecionar tudo com a mesma extensao por ex txt  
+rm remover arquivo ou diretórios  
+rm -Rfv comando/ ( removi o diretorio comando com tudo que tinha dentro) -R: recursivo -v: ver açao feita -f: forçar açao 
+du -h mostra quanto de informaçao tem no diretório  em kb, mb e gb 
+df -h mostra quanto espaço o diretório ocupa no disco 
+
+
+
+ 

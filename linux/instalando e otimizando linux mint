@@ -1,0 +1,37 @@
+instalando e otimizando linux mint na aula do SENAC TATUAPÈ 
+ 
+1- sudo apt install linux-oem-22.04d fduils
+kernel instalado 6.5  linux mint 21.x 
+sudo reboot
+reiniciar o sistema
+sudo uname -a 
+verficar para ver se deu certo
+
+2- sudo apt install software-properties-common build-essential lsb-core dkms 
+instalaçao de um software base do Mint
+sudo apt install htop nmon psensor tlp tlp-rdw cpufrequtils cputool ipmitool ipmiutil smartmontools 
+instalaçao de software basico de monitoramento e hardware 
+sudo apt install ttf-mscorefonts-installer cheese guvcview v4l-utils cairo-dock vim git p7zip-full p7zip-rar
+instalaçao de softwares basicos de produtividade e facilidade 
+sudo reboot
+* DICA: sempre após instalaçao de um software de reboot e teste o programa, pois se algo der errado voce estara ciente de onde o erro começou.
+
+3- sudo apt install vainfo intel-gpu-tools mesa-opencl-icd mesa-utils-extra
+sudo apt install libegl1-mesa libgl1-mesa-glx libgles2-mesa libassimp5
+instalando drivers de video 
+sudo reboot
+sudo glxinfo | less 
+sudo glxgears 
+para testar os drivers da intel mesa baixados 
+
+4- softwares para testar desempenho
+PassMark: https://www.passmark.com/products/pt_linux/index.php
+_ Hardinfo: https://github.com/lpereira/hardinfo
+_ Unigine.: https://benchmark.unigine.com/
+_ GpuTest.: https://www.geeks3d.com/gputest/
+
+5- baixando virtual box 
+wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc
+cat oracle_vbox_2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/virtualbox.gpg > /dev/null 2>&1
+
+baixando da internet o virtual box

@@ -34,4 +34,29 @@ _ GpuTest.: https://www.geeks3d.com/gputest/
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc
 cat oracle_vbox_2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/virtualbox.gpg > /dev/null 2>&1
 
-baixando da internet o virtual box
+baixando virtual box
+
+sudo cat /etc/os-release
+sudo cat /etc/lsb-release
+verificar informaçoes do sobre versoes e codinome do seu sistema operacional
+
+sudo inxi -CMSfxxx
+sudo lscpu
+verficando informaçoes do sistema e hardware ( ambiente grafico seria menu, informaçoes do sistema )
+
+sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/virtualbox.gpg] https://download.virtualbox.org/virtualbox/debian jammy contrib" >> /etc/apt/sources.list.d/virtualbox.list'
+ criando repositorio do virtual box dentro do repositorio de sources lists
+
+wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc
+adicionando as chaves do repositorios no linux
+cat oracle_vbox_2016.asc | gpg --dearmor | sudo tee /usr/share/keyrings/virtualbox.gpg > /dev/null 2>&1
+ sudo apt update
+para atualizar as listas incluindo as novas do virtual box
+sudo apt install virtualbox-7.0 cpu-checker libvirt-clients git vim python2 python3
+baixando o virtual box versao mais nova 7.0
+sudo kvm-ok
+verificando informaçoes do kernel virtual machine
+sudo virt-host-validate
+verificando as informações de validação do host da Biblioteca LibVirt
+
+

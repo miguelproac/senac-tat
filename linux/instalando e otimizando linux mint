@@ -58,5 +58,45 @@ sudo kvm-ok
 verificando informaçoes do kernel virtual machine
 sudo virt-host-validate
 verificando as informações de validação do host da Biblioteca LibVirt
+para corriir os erros do FREEZER do comando sudo virt-host-validate utilizar o comando sudo vim etc/default/grub para abrir o arquivo e editar a lkinha 10
+sudo update-grub para atualizar os arquivos grub e depois sudo reboot
+
+
+7- instalando docker 
+sudo apt install apt-transport-https ca-certificates curl software-properties-common gnupg-agent
+para baixar as dependencias basicas do docker
+wget -q https://download.docker.com/linux/ubuntu/gpg 
+cat gpg | gpg --dearmor | sudo tee /usr/share/keyrings/docker-ce.gpg > /dev/null 2>&1
+para criar as chaves do repositorio
+sudo add-apt-repository "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-ce.gpg] https://download.docker.com/linux/ubuntu jammy stable"
+para adiconar o repositorio ao linux 
+* ATENÇAO caso voce baixe uma versao errada, como por exemplo a da versao anterior, a soluçao é vc acessar o repositorio de sourecs lists (cd /etc/apt/sources.list.d/)
+e em seguida alterar um arquivo que esta la dentro (cat additional-repositories.list)--(sudo vim additional-repositories.list) e apagar a versao antiga que esta la. depois disso sudo apt update*
+
+sudo apt install docker-ce docker-compose git vim python2 python3
+instalando o docker e o compose 
+OBSERVAÇÃO IMPORTANTE: a versão do Docker-Compose utilizando o Sources List do Docker-CE está
+desatualizada em relação ao projeto do Github: https://github.com/docker/compose, é recomendado
+baixar o Binário do projeto e atualizar a versão no Linux Mint com o procedimento abaixo 
+
+
+#removendo o Docker Compose
+#opção do comando apt: purgue (remove --purge packages)
+sudo apt purge docker-compose
+
+#baixando o Docker Compose do Projeto do Github
+#opção do comando curl: -S (show-error), -L (location), -o (output) (Build 2.23.3 26/11/2023)
+sudo curl -SL https://github.com/docker/compose/releases/download/v2.23.3/docker-compose-linux-x86_64 -o /usr/bin/docker-compose
+
+#alterando as permissões do Binário do Docker Compose	
+#opção do comando chmod: -v (verbose), 755 (User=RWX,Group-R-X,Other-R-X)
+sudo chmod -v 755 /usr/bin/docker-compose
+
+sudo usermod -a -G docker $USER
+adicionar o seu usuario no grupo do Docker
+newgrp docker
+fazendo login em um novo grupo do Docker
+
+
 
 
